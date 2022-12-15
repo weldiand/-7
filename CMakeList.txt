@@ -10,6 +10,6 @@ set(CMAKE_CXX_STANDART_REQUIRED TRUE)
 
 include_directories("inc/")
 
-add_executable(${PROJECT_NAME} lab_7.cpp
-				inc/func.hpp
-				src/func.cpp)
+add_executable(${PROJECT_NAME} лаб7Горохова.cpp
+				function.h
+				function.cpp)
