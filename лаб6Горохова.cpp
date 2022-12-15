@@ -2,7 +2,7 @@
 #include <iostream>
 #include <iomanip>
 #include <math.h>
-#include "функция.h"
+#include "function.h"
 using namespace std;
 
 int main()
@@ -16,7 +16,7 @@ int main()
     {
         for (int j = 0; j < n; j++)
         {
-            cout << "элемент:"; cin >> dig;
+            cout << "element:"; cin >> dig;
             a[i][j] = dig;
         }
         cout << "\n";
