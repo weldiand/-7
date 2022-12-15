@@ -43,7 +43,7 @@ int main()
                 maxs = sumDigits(a[i][j]);
 
             }
-            if (a[i][j] < min)
+            if (a[i][j] <= min)
             {
                 min = a[i][j];
                 mins = sumDigits(a[i][j]);
