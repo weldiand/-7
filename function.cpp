@@ -1,3 +1,9 @@
+#include "function.h"
+#include <stdio.h>
+#include <iostream>
+#include <iomanip>
+#include <math.h>
+
 int sumDigits(int n)
 {
     int sum = 0;
